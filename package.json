@@ -1,46 +1,46 @@
 {
-	"name": "theme-plain",
-	"displayName": "Plain Theme",
-	"description": "VSCode theme to disable (or mostly disable) syntax highlighting.",
-	"version": "0.0.2",
-	"publisher": "gerred",
-	"engines": {
-		"vscode": "^1.0.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/gerred/vscode-theme-plain"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Plain (Dark Colored)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/PlainDarkHC.tmTheme"
-			},
-			{
-				"label": "Plain (Dark)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/PlainDark.tmTheme"
-			},
-			{
-				"label": "Plain",
-				"uiTheme": "vs",
-				"path": "./themes/PlainLight.tmTheme"
-			},
-			{
-				"label": "Plain (Colored)",
-				"uiTheme": "vs",
-				"path": "./themes/PlainLightHC.tmTheme"
-			},
-			{
-				"label": "Plain (Gray)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/PlainGrey.tmTheme"
-			}
-		]
-	}
+    "name": "theme-plain",
+    "displayName": "Plain Theme",
+    "description": "VSCode theme to disable (or mostly disable) syntax highlighting.",
+    "version": "0.1.0",
+    "publisher": "gerred",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gerred/vscode-theme-plain"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Plain (Dark Colored)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PlainDarkHC.tmTheme"
+            },
+            {
+                "label": "Plain (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PlainDark.tmTheme"
+            },
+            {
+                "label": "Plain",
+                "uiTheme": "vs",
+                "path": "./themes/PlainLight.tmTheme"
+            },
+            {
+                "label": "Plain (Colored)",
+                "uiTheme": "vs",
+                "path": "./themes/PlainLightHC.tmTheme"
+            },
+            {
+                "label": "Plain (Gray)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PlainGrey.tmTheme"
+            }
+        ]
+    }
 }
